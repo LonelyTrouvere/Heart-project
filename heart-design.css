@@ -1,0 +1,30 @@
+body {
+    background-color: #fcedc5;
+}
+
+#content{
+    margin-top: 300px;
+}
+
+.heart{
+    top: 50%;
+    width: 100px;
+    height: 160px;
+    background: #FF455E;
+    border-radius: 200px 200px 0 0;
+}
+
+#right-side{
+    position: relative;
+    left: 45%;
+    transform: rotate(45deg);
+}
+
+#left-side{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transform: rotate(-90deg);
+}
+
+

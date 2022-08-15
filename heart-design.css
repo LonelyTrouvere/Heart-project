@@ -12,12 +12,14 @@ body {
     height: 160px;
     background: #FF455E;
     border-radius: 200px 200px 0 0;
+    box-shadow: -60px 200px #FF455E;
 }
 
 #right-side{
     position: relative;
     left: 45%;
     transform: rotate(45deg);
+    box-shadow: -5px -10px 80px #FF455E, 25px 10px 120px #FF455E;
 }
 
 #left-side{
@@ -25,6 +27,5 @@ body {
     top: 30px;
     right: 30px;
     transform: rotate(-90deg);
+    box-shadow: -25px 10px 120px #FF455E, 5px -10px 80px #FF455E;
 }
-
-
